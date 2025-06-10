@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://wallpaper.forfun.com/fetch/f0/f0dc469682d1d7a452433dd0f735a092.jpeg);
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+a {
+    color: inherit;
+        text-decoration: none;
+}
+
+header {
+    background-color: #65B4F6;
+    background-size: cover;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0,0.2);
+    height: 100px;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+header a img {
+    width: 100px;
+    height: auto;
+    display: block;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+li {
+    font-size: 22px;
+}
+
+main {
+    
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: #E8DBCB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    padding: 0 20px;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+}
+footer ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer a img { 
+    width: 30px;
+    height: 30px;
+    display: block;
+}
